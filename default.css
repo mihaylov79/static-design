@@ -65,5 +65,11 @@ text-decoration: none;
 
 .menu > div a:hover{
     text-decoration: none;
-    color: black;
+    /* color: black; */
+}
+
+@media (max-width: 650px){
+    .menu > div{
+        font: 2em "Caveat";
+    }
 }
