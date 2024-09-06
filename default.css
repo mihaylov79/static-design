@@ -65,4 +65,5 @@ text-decoration: none;
 
 .menu > div a:hover{
     text-decoration: none;
+    color: black;
 }
