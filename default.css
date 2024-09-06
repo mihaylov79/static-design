@@ -9,11 +9,7 @@
 
 body{
     font: 14px/1.5 "Ubuntu", Verdana, sans-serif;
-    /* width: 100vw; */
-    /* margin: 0 auto; */
     background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    /* width: 100vw; */
-    /* height: 100vh; */
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,7 +23,7 @@ body{
     color: rgb(218, 219, 224);
     width:90%;
     margin: auto;
-    padding-top:25vh;
+    padding-top:8vh;
 }
 
 .menu {
@@ -59,16 +55,22 @@ text-align: right;
 margin: 0.25em;
 font-weight: bold;
 color: white;
-/* padding-bottom: 2em; */
-text-decoration: none;
+padding-left: 0.3em;
+padding-right: 0.3em;
 }
 
 .menu > div a:hover{
     text-decoration: none;
-    /* color: black; */
+    color: #31718C;
+    background-color: #fff;
+    border-radius: 0.3em;
 }
 
-@media (max-width: 650px){
+.menu > div > ul {
+    list-style: none;
+}
+
+@media (max-width: 800px){
     .menu > div{
         font: 2.5em "Caveat";
     }
