@@ -19,11 +19,11 @@ body{
 
 .sign{
     text-align:center;
-    font: 8vw "Grape Nuts";
+    font: 8.5vw "Grape Nuts";
     color: rgb(218, 219, 224);
     width:90%;
     margin: auto;
-    padding-top:8vh;
+    padding-top:10vh;
 }
 
 .menu {
