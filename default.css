@@ -70,6 +70,6 @@ text-decoration: none;
 
 @media (max-width: 650px){
     .menu > div{
-        font: 2em "Caveat";
+        font: 2.5em "Caveat";
     }
 }
