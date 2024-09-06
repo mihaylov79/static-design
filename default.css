@@ -19,10 +19,6 @@ body{
     background-attachment: fixed;
     background-size: cover;
     
-    
-    
-    
-    
 }
 
 .sign{
@@ -35,22 +31,34 @@ body{
 }
 
 .menu {
+    padding-bottom: 1em;
+    padding-right: 1em;
     opacity: 0;
 }
 
 .menu:hover{
     opacity: 100%;
     display: flex;
-    align-items: right;
+    align-items: center;
     flex-direction: row-reverse;
     background-color: rgb(0,0,0,0.2);
+    
 }
 
 .menu > div{
-font:2.5em "Caveat";
+font:3em "Caveat";
 text-align: right;
-/* padding-right: 1em; */
 margin: 0.25em;
 font-weight: bold;
 color: white;
+}
+
+.menu > div a{
+/* font:2.5em "Caveat"; */
+text-align: right;
+margin: 0.25em;
+font-weight: bold;
+color: white;
+padding-bottom: 2em;
+text-decoration: none;
 }
