@@ -62,3 +62,7 @@ color: white;
 padding-bottom: 2em;
 text-decoration: none;
 }
+
+.menu > div a:hover{
+    text-decoration: none;
+}
