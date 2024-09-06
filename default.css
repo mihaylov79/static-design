@@ -54,7 +54,7 @@ color: white;
 }
 
 .menu > div a{
-/* font:2.5em "Caveat"; */
+text-decoration: none;
 text-align: right;
 margin: 0.25em;
 font-weight: bold;
