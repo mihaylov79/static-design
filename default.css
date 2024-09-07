@@ -103,7 +103,7 @@ padding-right: 0.3em;
 
 @media (max-width: 820px){
     .menu > div{
-        font: 2.5em "Caveat";
+        font: 2em "Caveat";
     }
     .menu div ul {
        flex-direction: column;
@@ -111,10 +111,10 @@ padding-right: 0.3em;
 
 }
 
-@media (max-width: 380px){
+/* @media (max-width: 380px){
     .menu > div{
         font: 2em "Caveat";
-    }
+    } */
 
     /* .menu {
         opacity: 100%;
