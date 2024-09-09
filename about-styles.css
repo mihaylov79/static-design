@@ -22,6 +22,11 @@
     .about-text p{
         font: 2em "Caveat";
     }
+
+    .about-text{
+        margin-left: 2.5em;
+    margin-right: 2.5em;
+    }
     
 }
 
