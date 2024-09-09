@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+
+.about-text{
+    background-color: rgb(0,0,0,0.2);
+    padding: 1em;
+    margin-top: 4em;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    border-radius: 0.3em;
+}
+.about-text p{
+
+    font: 2.5em "Caveat";
+    color: #fff;
+    margin: 0 auto;
+    margin:1em
+    
+   
+    
+}
