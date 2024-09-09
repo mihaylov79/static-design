@@ -7,19 +7,6 @@
 }
 
 
-.email{
-    display: flex;
-    padding-left: 2em;
-    font-size: large;
-    font-weight: bold;
-    margin-top: 1em;
-}
-
-.email img{
-    margin-right: 0.5em;
-    height:2em
-    
-}
 
 .main-container {
     display: flex;
@@ -62,8 +49,9 @@ input[type="password"],
 input[type="submit"] {
     display: block;
     width: 100%;
+    color: #fff;
     border: none;
-    padding: 0.8em 0;
+    padding: 0.3em 0;
     outline: none;
     background-color: rgb(255,255,255,0.5) ;
 
@@ -76,6 +64,7 @@ textarea,
 input[type="text"],
 input[type="email"],
 input[type="password"] {
+    font-family: "Caveat";
     border-bottom: 2px solid #DDD;
     font-size: 1.2em;
     line-height: 1;
@@ -124,8 +113,9 @@ input[type="submit"]:hover {
 
 .field .helper {
     display: block;
+    color:#fff;
     font-style: italic;
-    opacity: 0.5;
+    opacity: 0.8;
     line-height: 1;
     padding: 0.3em 0;
 }
@@ -136,5 +126,5 @@ input[type="submit"]:hover {
 }
 
 .field:has(input:placeholder-shown) label {
-    translate: 0 1.8em;
+    translate: 0 1.2em;
 }
