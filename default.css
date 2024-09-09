@@ -66,7 +66,7 @@ body{
 .menu > div{
 font:2.5em "Caveat";
 text-align: right;
-margin: 0.25em;
+/* margin: 0.25em; */
 /* font-weight: bold; */
 color: white;
 }
@@ -74,7 +74,7 @@ color: white;
 .menu > div a{
 text-decoration: none;
 text-align: right;
-margin: 0.25em;
+/* margin: 0.25em; */
 font-weight: bold;
 color: white;
 padding-left: 0.3em;
