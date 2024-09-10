@@ -103,7 +103,7 @@ padding-right: 0.3em;
 
 @media (max-width: 820px){
     .menu > div a{
-        font: 1em "Caveat";
+        font: 0.9em "Caveat";
     }
     .menu div ul {
        flex-direction: column;
@@ -113,7 +113,7 @@ padding-right: 0.3em;
 
 @media (max-width: 450px){
     .menu > div a{
-        font: 0.9em "Caveat";
+        font: 0.8em "Caveat";
     }
 
     /* .menu {
