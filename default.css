@@ -18,23 +18,6 @@ body{
     
 }
 
-.sign{
-    
-    text-align:center;
-    font: 5.8vw "Grape Nuts";
-    color: rgb(218, 219, 224);
-    width:93%;
-    margin: 0 auto;
-    padding-top:15vh;
-    
-}
-
-.sign p{
-    /* text-align: right;
-    padding-right: 0.4em; */
-    font-weight: bold;
-    /* margin-top: -0.3em; */
-}
 
 
 .menu {
@@ -45,7 +28,7 @@ body{
     align-items: center;
     flex-direction: row-reverse;
     background-color: rgb(0,0,0,0.2);
-    /* opacity: 0; */
+    
 }
 
 .menu div ul {
@@ -53,36 +36,15 @@ body{
 }
 
 
-/* .menu div ul li ul{
-    display: flex;
-} */
-
-/* .menu div ul li:hover > ul {
-    display: block; 
-} */
-
-/* .menu:hover{
-    opacity: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    background-color: rgb(0,0,0,0.2);
-    
-} */
-
 .menu > div{
 font:2.5em "Caveat";
 text-align: right;
-/* margin: 0.25em; */
-/* font-weight: bold; */
 color: white;
 }
 
 .menu > div a{
 text-decoration: none;
 text-align: right;
-/* margin: 0.25em; */
-/* font-weight: bold; */
 color: white;
 padding-left: 0.3em;
 padding-right: 0.3em;
@@ -98,11 +60,6 @@ padding-right: 0.3em;
 .menu > div > ul, .menu > div > ul > li >ul {
     list-style: none;
 }
-
-
-/* .menu > div > ul > li:first-of-type {
-    padding-right: 1.5em; 
-} */
 
 .menu div ul li > ul {
     font-size: 1em;
@@ -122,29 +79,6 @@ padding-right: 0.3em;
     .menu > div a{
         font: 0.8em "Caveat";
     }
-
-    /* .menu {
-        opacity: 100%;
-        display: flex;
-        align-items: center;
-        flex-direction: row-reverse;
-        background-color: rgb(0,0,0,0.2);
-        
-    } */
-
-    /* .menu div ul li > ul{
-        display: block;
-    } */
-
-    /* .menu > div > ul > li:first-of-type {
-        padding-right: 0.2em; 
-        color:#31718C;
-        
-    } */
-
-    
-
-    
     
 }
 
