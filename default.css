@@ -29,6 +29,13 @@ body{
     
 }
 
+.sign p{
+    /* text-align: right;
+    padding-right: 0.4em; */
+    font-weight: bold;
+    /* margin-top: -0.3em; */
+}
+
 
 .menu {
     padding-bottom: 1em;
