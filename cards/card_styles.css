@@ -1,0 +1,137 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font:14px/1.5 "Ubuntu", sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1525953776754-6c4b7ee655ab?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 100%;
+    min-width: 350px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0,0,0,0.3);
+    padding: 1em;
+    color: #fff;
+
+}
+
+.logo-container img{
+    height: 5.5em;
+    
+}
+
+
+.pic-container {
+    
+    background-image: url("imgs/pic.webp");
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    height: 50vh;
+    opacity: 0.95;
+    /* border-radius: 0.5em;
+     */
+}
+
+.marker {
+    padding: 1em;
+}
+
+.marker a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.2em;
+    height: 2.2em;
+    border-radius: 50%;
+    background-color:rgb(0,0,0,0.7);
+
+    
+}
+
+
+
+.name-info, .phone, .mail, .site, .add-contact{
+   margin-top: 2em;
+   margin-left: 0.75em;
+   margin-right: 0.75em;
+   padding: 1em;
+   background-color:rgb(0,0,0,0.4);
+   border-radius: 0.5em;
+   text-align: center;
+   color:#fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a :hover {
+    text-decoration: none;
+    color: #CDE9F4;
+}
+
+.add-contact{
+    margin-bottom: 2em;
+}
+
+
+.phone h2::before {
+    font-family: "FontAwesome";
+    content: "\f2a0";
+    display: inline-block;
+    margin-right: 4.5em;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    /* color: black; */
+ }
+
+ .mail h2::before {
+    font-family: "FontAwesome";
+    content: "\f0e0";
+    display: inline-block;
+    margin-right: 0.5em;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    /* color: black; */
+ }
+
+ .site h2::before {
+    font-family: "FontAwesome";
+    content: "\f0ac";
+    display: inline-block;
+    margin-right: 2em;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    /* color: black; */
+ }
+
+ @media(max-width: 412px){
+    .logo-container h1{
+        font-size: 1.5em;
+    }
+
+    a h2{
+        font-size: 1.2em;
+    }
+ }
+
+
