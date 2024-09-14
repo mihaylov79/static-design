@@ -1,24 +1,41 @@
 
 .main-container {
     display: flex;
+    flex:1 1 auto;
     flex-direction: column;
     margin: 0 auto ;
     margin-top: 2em;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 3em;
+    margin-right: 3em;
     background-color: rgb(0,0,0,0.2);
-    font: 2em "Caveat";
+    font: 2.5em "Caveat";
     color:#fff;
     border-radius: 0.3em;
     margin-bottom: 4em;
     
+}
+
+.title{
+    padding: 0.5em;
+    font-family:  "Caveat";
+    color: #fff;
+    background-color: rgb(0,0,0,0.2);
+    text-align: right;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: 0.3em;
+}
+
+.title h2{
+    font-size: 3.5em;
 }
 .sites{
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:5em;
+    gap:2em;
     border-bottom: 0.1em solid #fff;
     margin-top: 3em;
     /* margin-left: 4em;
@@ -31,7 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:5em;
+    gap:2em;
     border-bottom: 0.1em solid #fff;
     margin-top: 3em;
     /* margin-left: 4em;
@@ -42,11 +59,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:5em;
+    gap:2em;
     /* border-bottom: 0.1em solid #fff; */
     margin-top: 3em;
     /* margin-left: 4em;
     margin-right: 4em; */
+}
+
+.text{
+    padding: 1em;
 }
 .box{
     display: flex;
@@ -79,9 +100,9 @@
         flex-direction: column;
         gap: 1em;
         margin-top: 2em;
-        padding-bottom: 0.5em;
+    
     }
-    .main-container{
+    .main-container, .title{
         
         margin-top: 3em;
         margin-left: 2em;
@@ -90,10 +111,17 @@
 }
 
 @media(max-width: 750px) {
+    .main-container, .title{
+        margin-top: 1.5em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
     .main-container{
-        font-size: 1.5em;
-        margin-top: 2em;
-        margin-left: 2em;
-        margin-right: 2em;
+        font-size: 1.8em;
+    }
+
+    .title h2{
+        font-size: 1.8em;
     }
 }
