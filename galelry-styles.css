@@ -161,7 +161,7 @@
 }
 
 @media(max-width: 419px) {
-    .main-container {
-        font-size: 1.78em;
+    .cards h2 {
+        font-size: 1.4em;
     }
 }
