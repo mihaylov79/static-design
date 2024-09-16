@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://static-design.site/</loc>
+  <lastmod>2024-09-16T05:37:56+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://static-design.site/about</loc>
+  <lastmod>2024-09-16T05:37:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://static-design.site/contacts</loc>
+  <lastmod>2024-09-16T05:37:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://static-design.site/gallery</loc>
+  <lastmod>2024-09-16T05:37:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://static-design.site/cards/demo_card</loc>
+  <lastmod>2024-09-16T05:37:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://static-design.site/cards/dimo</loc>
+  <lastmod>2024-09-16T05:37:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://static-design.site/cv/</loc>
+  <lastmod>2024-09-16T05:37:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://static-design.site/cards/demo_card_en</loc>
+  <lastmod>2024-09-16T05:37:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://static-design.site/cv/CV</loc>
+  <lastmod>2024-09-16T05:37:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
