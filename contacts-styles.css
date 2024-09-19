@@ -16,7 +16,7 @@
 }
 
 .contacts-info {
-    background-color: rgb(0,0,0,0.4); ;
+    background-color: rgb(0,0,0,0.2); ;
     margin-top: 2em;
     padding-top:0.5em;
     padding-bottom:0.5em;
@@ -173,7 +173,6 @@ input[type="submit"]:hover {
 
 .field label {
     display: block;
-    /* font-weight: bold; */
     position: absolute;
     top: 0;
     left: 0;
