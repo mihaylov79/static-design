@@ -36,7 +36,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* border-radius: 5em; */
+    background-color:rgba(179, 199, 230, 0.4); ;
+    border-radius: 5em;
     
 }
 
