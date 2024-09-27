@@ -32,6 +32,13 @@ body{
     
 }
 
+.menu .QR img {
+    height: 4.5em;
+    position: absolute;
+    right: 0;
+    top: 7%;
+}
+
 .menu .lang{
     font-size: 1.75em;
     margin-left: 0.5em;
@@ -99,6 +106,9 @@ padding-right: 0.3em;
     }
     .menu div ul {
        flex-direction: column;
+    }
+    .QR{
+        display: none;
     }
 
 }
