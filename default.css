@@ -36,7 +36,7 @@ body{
     height: 4.5em;
     position: absolute;
     right: 0;
-    top: 7%;
+    bottom: 0;
 }
 
 .menu .lang{
