@@ -33,6 +33,7 @@ body{
 }
 
 .menu .QR img {
+    display: none;
     height: 4.5em;
     position: absolute;
     right: 0;
